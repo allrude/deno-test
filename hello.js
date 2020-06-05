@@ -1,4 +1,4 @@
-import { serve } from "https://deno.land/std@0.55.0/http/server.ts";
+import { helloWorld } from "https://raw.githubusercontent.com/allrude/deno-test/master/index.js?token=AAALSL6IACIXVNEKFDY2YL263ISDK";
 const s = serve({ port: 8000 });
 console.log("http://localhost:8000/");
 for await (const req of s) {
